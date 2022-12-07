@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-oauth-demo"
+version = "0.1.0"
+description = ""
+authors = ["Rade Martinović <external.Rade.Martinovic@bosch.io>"]
+readme = "README.md"
+packages = [{include = "django_oauth_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.1.3"
+django-oauth-toolkit = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
